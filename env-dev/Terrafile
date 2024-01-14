@@ -2,14 +2,14 @@ docdb:
     source:  "https://github.com/Adnan-110/Terraform-module-docdb.git"
     version: "main"
 
-# rds:
-#     source:  "https://github.com/Adnan-110/Terraform-module-rds.git"
-#     version: "main"
+mysql:
+    source:  "https://github.com/Adnan-110/Terraform-module-mysql.git"
+    version: "main"
 
-# elasticcashe:
-#     source:  "https://github.com/Adnan-110/Terraform-module-elasticcashe.git"
-#     version: "main"
+redis:
+    source:  "https://github.com/Adnan-110/Terraform-module-redis.git"
+    version: "main"
 
-# rabbitmq:
-#     source:  "https://github.com/Adnan-110/Terraform-module-rabbitmq.git"
-#     version: "main"
+rabbitmq:
+    source:  "https://github.com/Adnan-110/Terraform-module-rabbitmq.git"
+    version: "main"
