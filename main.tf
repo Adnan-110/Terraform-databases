@@ -1,5 +1,6 @@
 module "docdb"{
   source                = "./vendor/modules/docdb"
+
   ENV                   = var.ENV
   DOCDB_PORT            = var.DOCDB_PORT
   DOCDB_INSTANCE_TYPE   = var.DOCDB_INSTANCE_TYPE
@@ -10,6 +11,7 @@ module "docdb"{
 
 module "mysql"{
   source                = "./vendor/modules/mysql"
+  
   ENV                   = var.ENV
   MYSQL_PORT            = var.MYSQL_PORT
   MYSQL_ENGINE          = var.MYSQL_ENGINE
@@ -21,6 +23,7 @@ module "mysql"{
 
 module "redis"{
   source                = "./vendor/modules/redis"
+  
   ENV                   = var.ENV
   REDIS_PORT            = var.REDIS_PORT
   REDIS_ENGINE          = var.REDIS_ENGINE
