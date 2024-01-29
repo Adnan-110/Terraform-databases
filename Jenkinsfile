@@ -13,7 +13,7 @@ pipeline{
         stage('Terraform init') {
             steps{
                 sh "terrafile -f env-dev/Terrafile"
-                sh "terraform init -backend-config=env-${ENV}/${ENV}-backend.tfvars -migrate-state"
+                sh "terraform init -backend-config=env-${ENV}/${ENV}-backend.tfvars -reconfigure"
             }
         }
         stage('Terraform plan') {
