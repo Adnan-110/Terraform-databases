@@ -19,7 +19,7 @@ pipeline{
         stage('Terraform plan') {
             steps{
                 sh "terraform plan -var-file=env-${ENV}/${ENV}.tfvars"
-            }
+        }
         }
         stage('Terraform Apply/Destroy') {
             steps{
