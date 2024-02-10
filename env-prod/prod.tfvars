@@ -25,5 +25,5 @@ REDIS_ENGINE_VERSION = "6.x"
 REDIS_ENGINE_FAMILY  = "redis6.x"
 
 # RabbitMQ Variable
-RABBITMQ_NODE_TYPE   = "t2.micro"
+RABBITMQ_NODE_TYPE   = "t3.micro"
 RABBITMQ_PORT        = 5672
